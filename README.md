@@ -23,7 +23,7 @@ Each student must have a unique full name.
 4. Teacher can delete a student. In such a case, the student should be removed from the
 group and project.
 
-*Removed the student with SQL remove statement.
+*Removed the student with SQL DELETE statement.
 
 5. Teacher can assign a student to any of the groups. Any student can only be assigned to
 a single group. In case the group is full, information text should be visible to a teacher.
