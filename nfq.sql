@@ -39,12 +39,6 @@ CREATE TABLE `groups` (
 -- Dumping data for table `groups`
 --
 
-INSERT INTO `groups` (`gid`, `fk_pid`, `gnr`, `snr`) VALUES
-(8, 13, 1, 2),
-(9, 13, 2, 2),
-(10, 13, 3, 2),
-(11, 13, 4, 2),
-(12, 13, 5, 2);
 
 -- --------------------------------------------------------
 
@@ -63,8 +57,7 @@ CREATE TABLE `project` (
 -- Dumping data for table `project`
 --
 
-INSERT INTO `project` (`pid`, `ptitle`, `pgroupnr`, `pstudentnr`) VALUES
-(13, 'NFQ php', 5, 2);
+
 
 -- --------------------------------------------------------
 
@@ -84,14 +77,7 @@ CREATE TABLE `students` (
 -- Dumping data for table `students`
 --
 
-INSERT INTO `students` (`sid`, `gid`, `studentnr`, `pid`, `sfullname`) VALUES
-(4, 0, 0, 13, 'Jhon Doe'),
-(5, 0, 0, 13, 'Freddie Mercury'),
-(11, 0, 0, 13, 'Shamone'),
-(24, 0, 0, 13, 'Billie Jean'),
-(25, 0, 0, 13, 'Michael Jackson'),
-(28, 0, 0, 13, 'Michael Jordan'),
-(29, 0, 0, 13, 'Maynard');
+
 
 --
 -- Indexes for dumped tables
