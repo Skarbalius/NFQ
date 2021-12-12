@@ -1,0 +1,41 @@
+.tbl1{
+    width:50%;
+    margin: 5%;
+    margin-bottom: 10px;
+}
+.con2{
+    width: 50%;
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+button{
+    align-self: left;
+}
+.tbl2{
+    width:40%;
+    margin: 5%;
+}
+select{
+    width: 100%;
+}
+thead {
+    background-color: lightgrey;
+    border-color: grey;
+    border-style: solid; 
+    border-width: 1px;
+}
+
+td {
+    text-align: center;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+}
+th {
+    text-align: center;
+    background-color: lightgrey;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+}
