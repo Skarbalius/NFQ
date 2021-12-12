@@ -20,7 +20,7 @@ function changed(id){
     // $("#students").html("")
     // $("#groups").html("")
     $("#container").load("")
-    $(id).load("")
+    $("#"+id).load("")
     // $("#groups").load("project.php")
 
 }

@@ -19,3 +19,23 @@ Each student must have a unique full name.
 3. All students are visible on a list.
 
 *Displayed all students with while($row = $result->fetch_assoc())
+
+4. Teacher can delete a student. In such a case, the student should be removed from the
+group and project.
+
+*Removed the student with SQL remove statement.
+
+5. Teacher can assign a student to any of the groups. Any student can only be assigned to
+a single group. In case the group is full, information text should be visible to a teacher.
+
+*Assignment is fullfilled with html select/option and onchange directing to Javascript function. With Ajax post the student ID and group ID is sent to the update function.
+*Select/option only displays students who are not assigned to any group or a student that was assigned to that group and position (both saved in database)
+*Also has default 'Assign Student' value
+*Ajax also updates the page without a reload. This applies to the student table and other select/option elements. (see main.js)
+
+6. The page is operational and publicly accessible.
+
+*The page is accessible in localhost
+*The page was created according to status page mockup and functions similarly.
+
+For bonus requirements added an interval with Javascript that refreshes every 10 seconds. (See main.js)
