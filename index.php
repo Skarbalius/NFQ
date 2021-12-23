@@ -24,7 +24,7 @@
         $result = $mysqli->query("SELECT pid from project limit 1") or die($mysqli->error);
         $result = $result->fetch_assoc();
         if($result['pid'] != null){
-            header('location: groups.php');
+            header('location: project.php');
         }
     ?>
     <?php if(isset($_SESSION['message'])):?>
